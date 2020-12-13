@@ -21,7 +21,11 @@
      */
     var URL = '/ueditor/' || getUEBasePath();
 
-    /**
+	if (window.__POWERED_BY_QIANKUN__) {
+		URL = 'http://localhost:2222/ueditor/';
+	}
+
+	/**
      * 配置项主体。注意，此处所有涉及到路径的配置别遗漏URL变量。
      */
     window.UEDITOR_CONFIG = {
