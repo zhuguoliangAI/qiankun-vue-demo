@@ -1,14 +1,11 @@
 <template>
 	<div class="about">
 		<h1>This is app-vue-history about page</h1>
-		<Ueditor></Ueditor>
 	</div>
 </template>
 <script>
-	import Ueditor from '../components/Ueditor'
 
 	export default {
-		components: { Ueditor },
 		mounted () {
 			window.a = 1
 			console.log(window.a, 'app-vue-history')

@@ -20,13 +20,6 @@ new Vue({
 
 registerMicroApps([
   { 
-    name: 'app-vue-hash', 
-    entry: 'http://localhost:1111', 
-    container: '#appContainer', 
-    activeRule: '/app-vue-hash', 
-    props: { data : { store, router } }
-  },
-  { 
     name: 'app-vue-history',
     entry: 'http://localhost:2222', 
     container: '#appContainer', 

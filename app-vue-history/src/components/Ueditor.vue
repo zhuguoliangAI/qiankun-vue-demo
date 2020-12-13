@@ -14,7 +14,7 @@
 			}
 		},
 		mounted() {
-			this.editor = window.UE.getEditor('editor')
+			this.editor = window.UE.getEditor('editor');
 		}
 	}
 </script>
